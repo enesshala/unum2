@@ -110,3 +110,14 @@ html{
     padding: 0;
   }
 }
+
+@media (max-width: 525px) {
+	.buy-ticket a{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	border:3px solid white;
+	padding: 15px 20px;
+	}
+}
