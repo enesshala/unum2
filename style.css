@@ -1,0 +1,112 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.bg-img{
+	position: relative;
+	display: flex;
+	background: url(img/bg-img.jpg);
+	background-attachment: fixed;
+	height: 95vh;
+}
+
+.nav-bg{
+	display: flex;
+	background: url(img/bg-img.jpg);
+	background-attachment: fixed;
+}
+.lg-bg-img{
+	position: relative;
+	display: flex;
+	background: url(img/bg-img-1.jpg);
+	background-attachment: cover;
+	height: 100%;
+}
+
+.bg-col-transp{
+	background: rgba(1,1,1,.6);
+}
+.head-text{
+	padding: 20px 15px 5px 15px;
+	font-size: 25px;
+	color: white;
+}
+.head-link{
+	padding: 10px 15px;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.head-link:hover{
+	text-decoration: #111;
+	color: #ddd;
+}
+.content-text{
+	color: white;
+}
+.pd-top{
+	padding-top: 20vh;
+}
+.pdd-top{
+	padding-top: 50px;
+}
+.scroll-txt{
+	text-decoration: none;
+	color: white;
+}
+
+.buy-ticket a{
+	color: white;
+	font-size: 45px;
+	font-weight: bold;
+	text-decoration: none;
+	border:3px solid white;
+	padding: 15px 25px;
+}
+
+.ticket-link a{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.links{
+	list-style: none;
+	margin-top: -5px;
+}
+.links li{
+	display: inline-block;
+	padding: 0 10px;
+	font-size: 20px;
+}
+.links li a{
+	color: white;
+	text-decoration: none;
+}
+
+
+/*scrolll*/
+.scroll-btn{
+	position: absolute;
+	margin-left: -40px;
+  	bottom: 100px;
+  	text-decoration: none; 
+  	color: white;
+  	font-size: 22px;
+  	justify-content: center;
+}
+.scroll-btn:hover{
+	color: white;
+	text-decoration: none;
+}
+
+@media (max-width: 770px) {
+  .midd {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+  }
+}
