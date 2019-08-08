@@ -40,7 +40,7 @@ html{
 }
 .head-link:hover{
 	text-decoration: #111;
-	color: #ddd;
+	color: #FFCB01;
 }
 .content-text{
 	color: white;
@@ -110,7 +110,6 @@ html{
     padding: 0;
   }
 }
-
 @media (max-width: 525px) {
 	.buy-ticket a{
 	color: white;
@@ -119,5 +118,11 @@ html{
 	text-decoration: none;
 	border:3px solid white;
 	padding: 15px 20px;
+	}
+	.ticket-link a{
+		font-size: 30px;
+	}
+	.content-text{
+		font-size: 30px;
 	}
 }
