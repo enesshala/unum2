@@ -2,13 +2,13 @@ $(document).ready(function(){
 
   $(window).scroll(function(){
     if($(this).scrollTop() > 40){
-      $('#topBtn').fadeIn();
+      $('#scroll').fadeIn();
     } else{
-      $('#topBtn').fadeOut();
+      $('#scroll').fadeOut();
     }
   });
 
-  $("#topBtn").click(function(){
+  $("#scroll").click(function(){
     $('html ,body').animate({scrollTop : 0},800);
   });
 });
