@@ -42,6 +42,9 @@ html{
 	text-decoration: #111;
 	color: #FFCB01;
 }
+.head-img{
+	height: 30px;
+}
 .content-text{
 	color: white;
 }
@@ -140,5 +143,8 @@ html{
 	.scroll-btn{
 		bottom: 120px;
 		font-size: 18px;
+	}
+	.head-img{
+		height: 18px;
 	}
 }
