@@ -125,4 +125,20 @@ html{
 	.content-text{
 		font-size: 30px;
 	}
+	.head-text{
+	padding: 15px 15px 0px 15px;
+	font-size: 20px;
+	color: white;
+	}
+	.head-link{
+		padding: 5px 15px;
+		font-size: 20px;
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	.scroll-btn{
+		bottom: 120px;
+		font-size: 18px;
+	}
 }
